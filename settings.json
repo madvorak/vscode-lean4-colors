@@ -1,5 +1,5 @@
 {
-	"editor.fontSize": 13,
+    "editor.fontSize": 13,
     "editor.fontFamily": "JetBrains Mono",
     "editor.bracketPairColorization.enabled": false,
     "editor.tokenColorCustomizations": {
