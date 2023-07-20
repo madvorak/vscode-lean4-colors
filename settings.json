@@ -4,7 +4,6 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.tokenColorCustomizations": {
         "comments": "#999999",
-        "variables": "#f8f8f2",
         "keywords": "#f8f8f2",
         "functions": "#f8f8f2",
         "types": "#f8f8f2",
@@ -13,6 +12,20 @@
         "textMateRules": [
             {
                 "scope": "constant.language.lean4",
+                "settings": {
+                    "foreground": "#f8f8f2",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#aabbff",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "variable.other.property",
                 "settings": {
                     "foreground": "#f8f8f2",
                     "fontStyle": ""
@@ -28,14 +41,14 @@
             {
                 "scope": "keyword",
                 "settings": {
-                    "foreground": "#ccddff",
+                    "foreground": "#ffaaaa",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "markup.inline.raw.string.markdown",
                 "settings": {
-                    "foreground": "#cccc00",
+                    "foreground": "#339900",
                     "fontStyle": ""
                 }
             },
@@ -56,16 +69,15 @@
         ]
     },
     "highlight.regexes": {
-        "(∨|∧|→|↔|:=)": [
+        "(∧|∨|→|↔|∀|∃|:=)": [
             {
-                "color": "#44ff44"
+                "color": "#ffaaaa"
             }
         ],
         "(sorry)": [
             {
                 "color": "#000000",
                 "backgroundColor": "#ff0000",
-                "fontWeight": "bold"
             }
         ]
     },
