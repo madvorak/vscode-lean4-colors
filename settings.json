@@ -4,37 +4,44 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.tokenColorCustomizations": {
         "comments": "#999999",
-        "keywords": "#f8f8f2",
-        "functions": "#f8f8f2",
-        "types": "#f8f8f2",
-        "strings": "#f8f8f2",
-        "numbers": "#f8f8f2",
+        "keywords": "#e8e8e2",
+        "functions": "#e8e8e2",
+        "types": "#e8e8e2",
+        "strings": "#e8e8e2",
+        "numbers": "#e8e8e2",
         "textMateRules": [
             {
                 "scope": "constant.language.lean4",
                 "settings": {
-                    "foreground": "#f8f8f2",
+                    "foreground": "#e8e8e2",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "constant.character.escape.lean4",
+                "settings": {
+                    "foreground": "#e8e8e2",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "variable",
                 "settings": {
-                    "foreground": "#aabbff",
+                    "foreground": "#aaccff",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "variable.other.property",
                 "settings": {
-                    "foreground": "#f8f8f2",
+                    "foreground": "#e8e8e2",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "storage.type.lean4",
                 "settings": {
-                    "foreground": "#f8f8f2",
+                    "foreground": "#e8e8e2",
                     "fontStyle": ""
                 }
             },
@@ -55,7 +62,7 @@
             {
                 "scope": "entity.name.function.lean4",
                 "settings": {
-                    "foreground": "#f8f8f2",
+                    "foreground": "#e8e8e2",
                     "fontStyle": ""
                 }
             },
@@ -66,10 +73,17 @@
                     "fontStyle": ""
                 }
             },
+            {
+                "scope": "source.lean4",
+                "settings": {
+                    "foreground": "#e8e8e2",
+                    "fontStyle": ""
+                }
+            },
         ]
     },
     "highlight.regexes": {
-        "(∧|∨|→|↔|∀|∃|:=)": [
+        "(∧|∨|→|↔|∀|∃|:=|=>)": [
             {
                 "color": "#ffaaaa"
             }
@@ -81,4 +95,7 @@
             }
         ]
     },
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Monokai",
+    "diffEditor.ignoreTrimWhitespace": false
 }
