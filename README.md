@@ -5,3 +5,6 @@
 ## Required extensions
 * `lean4` by leanprover
 * `Highlight` by Fabio Spampinato
+
+## Font download
+* https://www.jetbrains.com/lp/mono/
