@@ -7,4 +7,5 @@
 * `Highlight` by Fabio Spampinato
 
 ## Font download
-* https://www.jetbrains.com/lp/mono/
+* [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+* [JuliaMono](https://juliamono.netlify.app/#)
