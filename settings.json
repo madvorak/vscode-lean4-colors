@@ -9,8 +9,8 @@
         "**/*.olean": true
     },
     "git.openRepositoryInParentFolders": "never",
-    "editor.fontSize": 13,
-    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "JuliaMono",
     "editor.bracketPairColorization.enabled": false,
     "editor.tokenColorCustomizations": {
         "keywords": "#dddddd",
@@ -138,6 +138,11 @@
         "(∧|∨|↔|∀|∃| →|:=|=>)": [
             {
                 "color": "#ffaaaa"
+            }
+        ],
+        "(`)": [
+            {
+                "color": "#999999"
             }
         ],
         "(sorry)": [
