@@ -135,7 +135,7 @@
         ]
     },
     "highlight.regexes": {
-        "(∧|∨|↔|∀|∃| →|:=|=>)": [
+        "(∀|∃|∧|∨|↔|→|←|:=|=>)": [
             {
                 "color": "#ffaaaa"
             }
@@ -155,10 +155,16 @@
                 "color": "#000000",
                 "backgroundColor": "#ff0000",
             }
-        ]
+        ],
     },
     "lean4.infoview.style": ".goal-hyp {color: #aaccff !important; font-weight: normal !important;} .goal-vdash {color: #ffaaaa !important;} .goal-goals {color: #ffaaaa !important;} .goal-case {color: #dddddd !important;}",
     "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        "editor.background": "#1e1e1e",
+        "titleBar.activeBackground": "#1e1e1e",
+        "titleBar.inactiveBackground": "#1e1e1e",
+        "sideBar.background": "#1e1e1e",
+    },
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.accessibilitySupport": "off",
     "editor.stickyScroll.enabled": false
