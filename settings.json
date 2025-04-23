@@ -1,23 +1,13 @@
 {
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/*.olean": true
-    },
-    "git.openRepositoryInParentFolders": "never",
     "editor.fontSize": 14,
     "editor.fontFamily": "JuliaMono",
     "editor.bracketPairColorization.enabled": false,
     "editor.tokenColorCustomizations": {
-        "keywords": "#dddddd",
-        "functions": "#dddddd",
-        "types": "#dddddd",
-        "strings": "#dddddd",
-        "numbers": "#dddddd",
+        "keywords": "#cccccc",
+        "functions": "#cccccc",
+        "types": "#cccccc",
+        "strings": "#cccccc",
+        "numbers": "#cccccc",
         "comments": "#999999",
         "textMateRules": [
             {
@@ -37,42 +27,42 @@
             {
                 "scope": "source.lean4",
                 "settings": {
-                    "foreground": "#dddddd",
+                    "foreground": "#cccccc",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "constant.language.lean4",
                 "settings": {
-                    "foreground": "#dddddd",
+                    "foreground": "#cccccc",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "constant.character.escape.lean4",
                 "settings": {
-                    "foreground": "#dddddd",
+                    "foreground": "#cccccc",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "variable.other.property",
                 "settings": {
-                    "foreground": "#dddddd",
+                    "foreground": "#cccccc",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "storage.type.lean4",
                 "settings": {
-                    "foreground": "#dddddd",
+                    "foreground": "#cccccc",
                     "fontStyle": ""
                 }
             },
             {
                 "scope": "entity.name.function.lean4",
                 "settings": {
-                    "foreground": "#dddddd",
+                    "foreground": "#cccccc",
                     "fontStyle": ""
                 }
             },
@@ -147,8 +137,13 @@
         ],
         "(Type\\*)": [
             {
-                "color": "#dddddd",
-            }
+                "color": "#cccccc",
+            },
+        ],
+        "(Sort\\*)": [
+            {
+                "color": "#cccccc",
+            },
         ],
         "(sorry)": [
             {
@@ -157,7 +152,7 @@
             }
         ],
     },
-    "lean4.infoview.style": ".goal-hyp {color: #aaccff !important; font-weight: normal !important;} .goal-vdash {color: #ffaaaa !important;} .goal-goals {color: #ffaaaa !important;} .goal-case {color: #dddddd !important;}",
+    "lean4.infoview.style": ".goal-hyp {color: #aaccff !important; font-weight: normal !important;} .goal-vdash {color: #ffaaaa !important;} .goal-goals {color: #ffaaaa !important;} .goal-case {color: #cccccc !important;}",
     "workbench.colorTheme": "Monokai",
     "workbench.colorCustomizations": {
         "editor.background": "#1e1e1e",
