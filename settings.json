@@ -1,4 +1,6 @@
 {
+    "chat.disableAIFeatures": true,
+    "update.mode": "none",
     "editor.fontSize": 14,
     "editor.fontFamily": "JuliaMono",
     "editor.bracketPairColorization.enabled": false,
@@ -88,6 +90,13 @@
                 }
             },
             {
+                "scope": "markup.bold.markdown",
+                "settings": {
+                    "foreground": "#339900",
+                    "fontStyle": "bold"
+                }
+            },
+            {
                 "scope": "markup.list.unnumbered.markdown",
                 "settings": {
                     "foreground": "#999999",
@@ -122,10 +131,16 @@
                     "fontStyle": ""
                 }
             },
+            {
+                "scope": "markup.list.numbered.markdown",
+                "settings": {
+                "foreground": "#999999"
+                }
+            }
         ]
     },
     "highlight.regexes": {
-        "(∀|∃|¬|∧|∨|↔|→|←|:=|=>)": [
+        "(∀|∃|¬|∧|∨|↔|→|←|:=|=>|λ)": [
             {
                 "color": "#ffaaaa"
             }
@@ -162,5 +177,5 @@
     },
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.accessibilitySupport": "off",
-    "editor.stickyScroll.enabled": false
+    "editor.stickyScroll.enabled": false,
 }
