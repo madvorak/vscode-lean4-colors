@@ -1,6 +1,7 @@
 {
     "chat.disableAIFeatures": true,
     "update.mode": "none",
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.fontSize": 14,
     "editor.fontFamily": "JuliaMono",
     "editor.bracketPairColorization.enabled": false,
@@ -140,7 +141,7 @@
         ]
     },
     "highlight.regexes": {
-        "(∀|∃|¬|∧|∨|↔|→|←|:=|=>|λ)": [
+        "(∀|∃|¬|∧|∨|↔|→|←|:=|=>)": [
             {
                 "color": "#ffaaaa"
             }
